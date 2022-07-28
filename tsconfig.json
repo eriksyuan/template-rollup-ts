@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "skipDefaultLibCheck": true,
+    "moduleResolution": "node",
+    "module": "esnext",
+    "baseUrl": ".",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "types": [
+      "vitest/globals",
+      "vitest/config"
+    ],
+    "paths": {
+      "@eriksyuan/vc-html": ["/src/index.ts"]
+    }
+  }
+}
